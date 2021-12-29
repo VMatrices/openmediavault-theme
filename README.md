@@ -18,22 +18,28 @@ chown openmediavault-webgui:openmediavault-webgui
 
 <br/>
 
-## Screenshots
+## Preview
 
 <br/>
 
-Desktop Preview:
+Login:
+
+![Login](https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/Screenshots/login.png)
+
+<br/>
+
+Desktop:
 
 ![Desktop](https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/Screenshots/desktop1.png)
 
 <br/>
 
-Desktop Preview:
+Desktop:
 
 ![Desktop](https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/Screenshots/desktop2.png)
 
 <br/>
 
-Phone Preview:
+Phone:
 
 ![Phone](https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/Screenshots/phone.png)
