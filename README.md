@@ -10,10 +10,11 @@ Connect to the omv server via SSH and type the following command:
 
 
 ```shell
-cp theme-cuntom.scss /var/www/openmediavault/css
 cd /var/www/openmediavault/css
-make
+wget https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/theme-custom.scss
+sassc -t compressed theme-custom.scss theme-custom.css
 chown openmediavault-webgui:openmediavault-webgui *
+rm -f theme-cuntom.scss
 ```
 
 <br/>
