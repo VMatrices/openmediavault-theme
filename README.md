@@ -13,7 +13,7 @@ Connect to the omv server via SSH and type the following command:
 cp theme-cuntom.scss /var/www/openmediavault/css
 cd /var/www/openmediavault/css
 make
-chown openmediavault-webgui:openmediavault-webgui
+chown openmediavault-webgui:openmediavault-webgui *
 ```
 
 <br/>
