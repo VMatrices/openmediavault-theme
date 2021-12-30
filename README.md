@@ -4,17 +4,28 @@ Beautiful Theme For OpenMediaVault 5.x
 <br/>
 
 ## Installation
-Connect to the omv server via SSH and type the following command:
+
+
+Upload "[theme-custom.css](https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/theme-custom.css)" to following path:
+```
+/var/www/openmediavault/css/
+```
+
+Change the owner to `openmediavault-webgui`:
+```
+$ chown openmediavault-webgui:openmediavault-webgui theme-custom.css
+```
+Refresh page and enjoy it!
 
 <br/>
 
+## Build
 
 ```shell
-cd /var/www/openmediavault/css
-wget https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/theme-custom.scss
-sassc -t compressed theme-custom.scss theme-custom.css
-chown openmediavault-webgui:openmediavault-webgui *
-rm -f theme-cuntom.scss
+$ cd /var/www/openmediavault/css
+$ wget https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/theme-custom.scss
+$ sassc -t compressed theme-custom.scss theme-custom.*
+$ chown openmediavault-webgui:openmediavault-webgui theme-custom.css
 ```
 
 <br/>
@@ -23,24 +34,24 @@ rm -f theme-cuntom.scss
 
 <br/>
 
-Login:
+#### Login:
 
-![Login](https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/Screenshots/login.png)
-
-<br/>
-
-Desktop:
-
-![Desktop](https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/Screenshots/desktop1.png)
+![Login](Screenshots/login.png)
 
 <br/>
 
-Desktop:
+#### Dashboard:
 
-![Desktop](https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/Screenshots/desktop2.png)
+![Desktop](Screenshots/desktop1.png)
 
 <br/>
 
-Phone:
+#### SMART:
 
-![Phone](https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/Screenshots/phone.png)
+![Desktop](Screenshots/desktop2.png)
+
+<br/>
+
+#### Phone:
+
+![Phone](Screenshots/phone.png)

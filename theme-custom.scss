@@ -216,6 +216,18 @@ body.x-phone>.x-panel-default[id^="ext-comp"]>.x-panel-bodyWrap>.x-panel-body-de
 	border: none;
 	border-radius: 5px;
 	box-shadow: 1px 2px 10px #0000003b;
+
+	&:not(.x-window-ghost){
+		transition: width .2s, height .2s;
+
+		.x-window-header-default {
+			transition: width .2s, height .2s;
+		}
+	
+		.x-toolbar-footer {
+			transition: width .2s, height .2s;
+		}
+	}
 }
 
 // Tab标签
@@ -235,6 +247,7 @@ body.x-phone>.x-panel-default[id^="ext-comp"]>.x-panel-bodyWrap>.x-panel-body-de
 // 表单元素
 .x-form-trigger-wrap-default {
 	border-radius: 3px;
+	overflow: hidden;
 }
 
 .x-form-text-default.x-form-textarea {
@@ -245,7 +258,20 @@ body.x-phone>.x-panel-default[id^="ext-comp"]>.x-panel-bodyWrap>.x-panel-body-de
 	border-radius: 3px;
 }
 
-/****************************************列表美化**************************************/
+// 下拉列表
+.x-boundlist {
+	border: none;
+    border-radius: 5px;
+}
+
+// 菜单
+.x-menu-default {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 1px 5px #0000004f;
+}
+
+/***********rgb(36, 32, 27)******************列表美化**************************************/
 
 .x-grid-header-ct {
 	background-color: #f3f3f3;
