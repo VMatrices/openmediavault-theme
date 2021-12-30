@@ -34,23 +34,15 @@ $ chown openmediavault-webgui:openmediavault-webgui theme-custom.css
 
 <br/>
 
-#### Login:
+#### Desktop:
 
 ![Login](Screenshots/login.png)
 
-<br/>
+![Dashboard](Screenshots/desktop1.png)
 
-#### Dashboard:
+![SMART](Screenshots/desktop2.png)
 
-![Desktop](Screenshots/desktop1.png)
-
-<br/>
-
-#### SMART:
-
-![Desktop](Screenshots/desktop2.png)
-
-<br/>
+![ApplyChange](Screenshots/desktop3.png)
 
 #### Phone:
 
