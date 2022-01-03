@@ -24,7 +24,7 @@ Refresh page and enjoy it!
 ```shell
 $ cd /var/www/openmediavault/css
 $ wget https://raw.githubusercontent.com/VMatrices/openmediavault-theme/main/theme-custom.scss
-$ sassc -t compressed theme-custom.scss theme-custom.*
+$ sassc -t compressed theme-custom.scss theme-custom.css
 $ chown openmediavault-webgui:openmediavault-webgui theme-custom.css
 ```
 
